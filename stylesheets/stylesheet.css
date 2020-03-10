@@ -1,0 +1,80 @@
+div.header{
+	height: 100px;
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	margin-bottom:90px;
+	background-color: #ffffb3;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #ffe6ff;
+}
+
+h1.header{
+	text-align: center;
+	font-family:  italic;
+	color: #ffffff; 
+}
+div.navbar {
+	background-color: #ffffb3;
+	height: 75px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+
+nav.navigation {
+	text-align: center;
+}
+
+ul li {
+	display: inline;
+	
+}
+	
+img { 
+	width: 15%;
+	float: left;
+}
+
+div#intro{
+	height: 400px;
+	width: 900px;
+	background-color: #ffffb3;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2#introduction{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fffff;
+}
+div#aboutme{
+	height: 900px;
+	width: 1000px;
+	background-color: #ffffb3;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+h2#aboutmetitle	{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fffff;
+}
+		
+	
+	
+
+
+	
+
