@@ -1,11 +1,11 @@
 div.header{
 	height: 100px;
-	width: 1000px;
+	width: 80%;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:40px;
 	margin-bottom:90px;
-	background-color: #ffffb3;
+	background-color: whitesmoke;
 }
 
 * {
@@ -14,54 +14,64 @@ div.header{
 }
 
 body{
-	background-color: #ffe6ff;
+	background-color:#e6e6e6;
 }
 
 h1.header{
 	text-align: center;
 	font-family:  italic;
-	color: #ffffff; 
+	color:  #0d0d0d; 
 }
 div.navbar {
-	background-color: #ffffb3;
-	height: 75px;
-	width: 1000px;
+	background-color: whitesmoke;
+	height: 60px;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 80px;
+	margin-top: -50px;
+	margin-bottom: 50px;
 }
 
 nav.navigation {
 	text-align: center;
 }
 
+nav.navigation > ul {
+	padding-top: 20px;
+}
+
 ul li {
 	display: inline;
-	
 }
 	
-img { 
-	width: 15%;
+#aboutme > img { 
+	width: 25%;
 	float: left;
 }
 
 div#intro{
+	font-family: Arial, Helvetica, sans-serif;
 	height: 400px;
-	width: 900px;
-	background-color: #ffffb3;
+	width: 80%;
+	background-color: whitesmoke;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 h2#introduction{
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #fffff;
-}
+	padding: 10px;
+	padding: right 10px;
+	padding: left 10px;
+}	
+	
 div#aboutme{
 	height: 900px;
-	width: 1000px;
-	background-color: #ffffb3;
+	width: 80%;
+	background-color: whitesmoke;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -69,7 +79,34 @@ div#aboutme{
 h2#aboutmetitle	{
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #fffff;
+	background-color: whitesmoke;
+}
+
+div.gallery-images {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+div.gallery-images img {
+    width: 100%;
+}
+
+#gallery-body {
+	margin-bottom: 100px;
+}
+
+.column {
+	float: left;
+	width: 23%;
+	padding: 1%;
+}
+  
+/* Clear floats after image containers */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
 }
 		
 	
