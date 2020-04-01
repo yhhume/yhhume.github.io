@@ -13,8 +13,9 @@ div.header{
 	padding: 0px;
 }
 
-body{
+body {
 	background-color:#e6e6e6;
+	margin-bottom: 100px;
 }
 
 h1.header{
@@ -43,22 +44,19 @@ nav.navigation > ul {
 ul li {
 	display: inline;
 }
-	
-#aboutme > img { 
-	width: 25%;
-	float: left;
-}
 
-div#intro{
+div#intro {
 	font-family: Arial, Helvetica, sans-serif;
-	height: 400px;
 	width: 80%;
 	background-color: whitesmoke;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 20px;
-	padding-right: 20px;
 }
+
+div#intro > p {
+	padding: 10px;
+}
+
 h2#introduction{
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
@@ -75,11 +73,16 @@ div#aboutme{
 	margin-left: auto;
 	margin-right: auto;
 }
-	
-h2#aboutmetitle	{
+
+div#aboutme > h2 {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: whitesmoke;
+}
+	
+#aboutme > img { 
+	width: 25%;
+	float: left;
 }
 
 div.gallery-images {
@@ -90,10 +93,6 @@ div.gallery-images {
 
 div.gallery-images img {
     width: 100%;
-}
-
-#gallery-body {
-	margin-bottom: 100px;
 }
 
 .column {
